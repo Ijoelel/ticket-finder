@@ -3,10 +3,9 @@ body {
 	margin: 0;
 	box-sizing: border-box;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    overflow: hidden;
 }
 .container {
-	height: 100vh;
+    height: 100vh;
 	display: flex;
 	background: rgba(128, 128, 128, 0.5);
 	justify-content: center;
