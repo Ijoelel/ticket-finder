@@ -1,8 +1,7 @@
 const kupon = [
-	001052, 001051, 001050, 001049, 001048, 001196, 001197, 001198, 001199,
-	001200, 001179, 001178, 001177, 001176, 001175, 001081, 001082, 001083,
-	001084, 001085, 001120, 001121, 001122, 001123, 001124, 001125, 001126,
-	001127, 001128, 001129,
+	1052, 1051, 1050, 1049, 1048, 1196, 1197, 1198, 1199, 1200, 1179, 1178,
+	1177, 1176, 1175, 1081, 1082, 1083, 1084, 1085, 1120, 1121, 1122, 1123,
+	1124, 1125, 1126, 1127, 1128, 1129,
 ];
 const input = document.querySelector("input");
 const wrapper = document.querySelector(".wrapper");
@@ -13,7 +12,7 @@ const findHandler = () => {
 	const existsInKupon = kupon.includes(enteredValue);
 	if (existsInKupon) {
 		message.innerHTML = "Kode Ditemukan";
-        console.log(kupon.length)
+		console.log(kupon.length);
 	} else {
 		message.innerHTML = "Kode Tidak Ditemukan";
 	}
